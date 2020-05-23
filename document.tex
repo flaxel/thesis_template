@@ -29,11 +29,12 @@
 \usepackage{bookmark}
 
 % Konfiguration
-\include{00_definitions/variables}
-\include{00_definitions/commands}
-\include{00_definitions/siuntix}
-\include{00_definitions/listings}
-\include{00_definitions/bibliography}
+\input{00_definitions/variables}
+\input{00_definitions/commands}
+\input{00_definitions/epigraph}
+\input{00_definitions/siuntix}
+\input{00_definitions/listings}
+\input{00_definitions/bibliography}
 
 \begin{document}
 
@@ -71,29 +72,23 @@
 \include{02_introduction/motivation}
 \include{02_introduction/destination}
 \include{02_introduction/approach}
-\include{02_introduction/concept}
 \include{02_introduction/practice}
 
 % Hauptteil
 \part{Hauptteil}
 
 \include{03_content/indexing}
-\include{03_content/requirements}
-\include{03_content/analysis}
-\include{03_content/basics}
-\include{03_content/implementation1}
-\include{03_content/implementation2}
 
 % Schluss
 \part{Auswertung und Ausblick}
 
-\include{03_finishing/conclusion}
-\include{03_finishing/outlook}
+\include{04_finishing/conclusion}
+\include{04_finishing/outlook}
 
 % Anhang
 \part{Anhang}
 
-\include{03_finishing/appendix}
+\include{04_finishing/appendix}
 
 % Selbstständigkeitserklärung
 \bookmarksetup{startatroot}
