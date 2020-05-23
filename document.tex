@@ -1,0 +1,107 @@
+\documentclass[12pt,a4paper,ngerman]{report}
+
+\usepackage[a4paper,left=35mm,right=15mm,top=20mm,bottom=20mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[nohyperlinks,printonlyused]{acronym}
+\usepackage[backend=biber,style=ieee,sorting=nty,isbn=false,doi=false,url=false]{biblatex} 
+\usepackage[babel,german=quotes]{csquotes} 
+\usepackage[hang]{footmisc}
+\usepackage[ngerman=ngerman-x-latest]{hyphsubst}
+\usepackage[binary-units=true]{siunitx}
+\usepackage[format=plain,justification=centering,singlelinecheck=false]{caption}
+
+\usepackage{pgfplots}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{wrapfig}
+\usepackage{subfig} 
+\usepackage{courier}
+\usepackage{longtable}
+\usepackage{eurosym}
+\usepackage{epigraph}
+\usepackage[hyperfootnotes=false]{hyperref}
+\usepackage{bookmark}
+
+% Konfiguration
+\include{definitions/variables}
+\include{definitions/commands}
+\include{definitions/siuntix}
+\include{definitions/listings}
+\include{definitions/bibliography}
+
+\begin{document}
+
+% Deckblatt
+\pagenumbering{alph}
+\pdfbookmark{Deckblatt}{titlepage}
+\include{metadata/titlepage}
+
+% Danksagung
+\pagenumbering{arabic}
+\pdfbookmark{Danksagung}{acknowledgements}
+\include{metadata/acknowledgements}
+
+% Abkürzungsverzeichnis
+\include{metadata/abbrevations}
+
+% Abbildungsverzeichnis 
+\listoffigures
+\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+
+% Tabellenverzeichnis
+\listoftables
+\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+
+% Codeverzeichnis
+\lstlistoflistings
+\addcontentsline{toc}{chapter}{Codeverzeichnis}
+
+% Inhaltsverzeichnis
+\cleardoublepage\pdfbookmark{\contentsname}{toc}\tableofcontents
+
+% Einleitung
+\part{Einleitung}
+
+\include{introduction/motivation}
+\include{introduction/destination}
+\include{introduction/approach}
+\include{introduction/concept}
+\include{introduction/practice}
+
+% Hauptteil
+\part{Hauptteil}
+
+\include{content/indexing}
+\include{content/requirements}
+\include{content/analysis}
+\include{content/basics}
+\include{content/implementation1}
+\include{content/implementation2}
+
+% Schluss
+\part{Auswertung und Ausblick}
+
+\include{finish/conclusion}
+\include{finish/outlook}
+
+% Anhang
+\part{Anhang}
+
+\include{finish/appendix}
+
+% Selbstständigkeitserklärung
+\bookmarksetup{startatroot}
+\include{metadata/independency}
+
+% Literaturverzeichnis
+% \nocite{*}
+\printbibliography[title={Literaturverzeichnis}]
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+
+\end{document}
