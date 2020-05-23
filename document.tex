@@ -29,26 +29,26 @@
 \usepackage{bookmark}
 
 % Konfiguration
-\include{definitions/variables}
-\include{definitions/commands}
-\include{definitions/siuntix}
-\include{definitions/listings}
-\include{definitions/bibliography}
+\include{00_definitions/variables}
+\include{00_definitions/commands}
+\include{00_definitions/siuntix}
+\include{00_definitions/listings}
+\include{00_definitions/bibliography}
 
 \begin{document}
 
 % Deckblatt
 \pagenumbering{alph}
 \pdfbookmark{Deckblatt}{titlepage}
-\include{metadata/titlepage}
+\include{01_metadata/titlepage}
 
 % Danksagung
 \pagenumbering{arabic}
 \pdfbookmark{Danksagung}{acknowledgements}
-\include{metadata/acknowledgements}
+\include{01_metadata/acknowledgements}
 
 % Abkürzungsverzeichnis
-\include{metadata/abbrevations}
+\include{01_metadata/abbrevations}
 
 % Abbildungsverzeichnis 
 \listoffigures
@@ -68,36 +68,36 @@
 % Einleitung
 \part{Einleitung}
 
-\include{introduction/motivation}
-\include{introduction/destination}
-\include{introduction/approach}
-\include{introduction/concept}
-\include{introduction/practice}
+\include{02_introduction/motivation}
+\include{02_introduction/destination}
+\include{02_introduction/approach}
+\include{02_introduction/concept}
+\include{02_introduction/practice}
 
 % Hauptteil
 \part{Hauptteil}
 
-\include{content/indexing}
-\include{content/requirements}
-\include{content/analysis}
-\include{content/basics}
-\include{content/implementation1}
-\include{content/implementation2}
+\include{03_content/indexing}
+\include{03_content/requirements}
+\include{03_content/analysis}
+\include{03_content/basics}
+\include{03_content/implementation1}
+\include{03_content/implementation2}
 
 % Schluss
 \part{Auswertung und Ausblick}
 
-\include{finish/conclusion}
-\include{finish/outlook}
+\include{03_finishing/conclusion}
+\include{03_finishing/outlook}
 
 % Anhang
 \part{Anhang}
 
-\include{finish/appendix}
+\include{03_finishing/appendix}
 
 % Selbstständigkeitserklärung
 \bookmarksetup{startatroot}
-\include{metadata/independency}
+\include{01_metadata/independency}
 
 % Literaturverzeichnis
 % \nocite{*}
