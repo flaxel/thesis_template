@@ -13,7 +13,7 @@ You can click on the "[Use this template](https://github.com/flaxel/thesis_templ
 * 01_metadata: all extra files
 * 02_introduction: opening words
 * 03_content: main part of the thesis
-* 04_finish: summary and result of the thesis
+* 04_finishing: summary and result of the thesis
 * 05_resources: all resources like images, ...
 
 At the end you must only change the variables in the [00_definitions/variables.tex](./00_definitions/variables.tex) file.
