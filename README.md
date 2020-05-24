@@ -7,7 +7,7 @@ This is an easy template for any thesis.
 
 ## Getting Started
 
-You can click on the "Use this template" button to create a new repository with this template. After that you have a repository with the following structure:
+You can click on the "[Use this template](https://github.com/flaxel/thesis_template/generate)" button to create a new repository with this template. After that you have a repository with the following structure:
 
 * 00_definitions: all configuration files
 * 01_metadata: all extra files
