@@ -67,27 +67,16 @@
 \cleardoublepage\pdfbookmark{\contentsname}{toc}\tableofcontents
 
 % Einleitung
-\part{Einleitung}
-
-\include{02_introduction/motivation}
-\include{02_introduction/destination}
-\include{02_introduction/approach}
-\include{02_introduction/practice}
+\include{02_introduction/introduction}
+\include{02_introduction/practice} % only a new chapter if much content
 
 % Hauptteil
-\part{Hauptteil}
-
-\include{03_content/indexing}
+\include{03_content/indexing} % e.g. but more content necessary
 
 % Schluss
-\part{Auswertung und Ausblick}
-
 \include{04_finishing/conclusion}
-\include{04_finishing/outlook}
 
 % Anhang
-\part{Anhang}
-
 \include{04_finishing/appendix}
 
 % Selbstständigkeitserklärung
