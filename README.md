@@ -1,6 +1,7 @@
 # Template for a thesis
 
 [![build](https://github.com/flaxel/thesis_template/workflows/build/badge.svg)](https://github.com/flaxel/thesis_template/actions)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/flaxel/thesis_template)](https://github.com/flaxel/thesis_template/releases)
 [![GitHub license](https://img.shields.io/github/license/flaxel/thesis_template)](https://github.com/flaxel/thesis_template/blob/master/LICENSE)
 
 This is an easy template for any thesis.
