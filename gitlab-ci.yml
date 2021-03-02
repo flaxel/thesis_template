@@ -1,0 +1,13 @@
+image: registry.gitlab.com/islandoftex/images/texlive:latest
+
+build:
+  script:
+    - pdflatex document.tex
+    - biber document
+    - pdflatex document.tex
+    - pdflatex document.tex
+  after_script:
+    - cat document.log
+  artifacts:
+    paths:
+      - document.pdf
