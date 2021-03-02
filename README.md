@@ -6,7 +6,7 @@
 
 This is an easy template for any thesis.
 
-## Getting Started
+## Getting Started ✨
 
 You can click on the "[Use this template](https://github.com/flaxel/thesis_template/generate)" button to create a new repository with this template. After that you have a repository with the following structure:
 
@@ -19,7 +19,7 @@ You can click on the "[Use this template](https://github.com/flaxel/thesis_templ
 
 At the end you must only change the variables in the [00_definitions/variables.tex](./00_definitions/variables.tex) file. In addition, there are configurations for the [actions in GitHub](https://docs.github.com/en/actions) and the [pipeline in GitLab](https://docs.gitlab.com/ee/ci/pipelines/).
 
-## Examples
+## Examples 😊
 
 ### Code
 
@@ -35,8 +35,8 @@ public static void main(String[] args) {
 
 ```latex
 \begin{figure}[ht]
-	\centering 
-	\includegraphics{05_resources/image/name} 
+    \centering 
+    \includegraphics{05_resources/image/name} 
     \caption{headline}
     \label{img:name}
 \end{figure} 
@@ -58,7 +58,7 @@ public static void main(String[] args) {
 \end{table}
 ```
 
-## Further Reading
+## Further Reading 🔬
 
 * [Create a repository with template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
 * [Best Way to Start Using LaTex](https://tex.stackexchange.com/questions/4420/best-way-to-start-using-latex-tex)
