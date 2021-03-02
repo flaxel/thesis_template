@@ -26,7 +26,7 @@ At the end you must only change the variables in the [00_definitions/variables.t
 ```latex
 \begin{lstlisting}[style=Java, caption=Hello World]
 public static void main(String[] args) {
-	System.out.println("Hello World!");
+    System.out.println("Hello World!");
 }
 \end{lstlisting}
 ```
@@ -46,15 +46,15 @@ public static void main(String[] args) {
 
 ```latex
 \begin{table}[ht]
-	\centering
-	\begin{tabular}{c|c}
-		Column 1 & Column 2 \\
-		\hline
-		1 & 2 \\
-		3 & 4 \\
-	\end{tabular}
-	\caption{headline}
-	\label{tab:name}
+    \centering
+    \begin{tabular}{c|c}
+        Column 1 & Column 2 \\
+        \hline
+        1 & 2 \\
+        3 & 4 \\
+    \end{tabular}
+    \caption{headline}
+    \label{tab:name}
 \end{table}
 ```
 
