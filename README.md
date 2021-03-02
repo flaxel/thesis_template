@@ -1,4 +1,4 @@
-# Template for a thesis
+# Template for a thesis 🎓
 
 [![build](https://github.com/flaxel/thesis_template/workflows/build/badge.svg)](https://github.com/flaxel/thesis_template/actions)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/flaxel/thesis_template)](https://github.com/flaxel/thesis_template/releases)
@@ -20,6 +20,8 @@ You can click on the "[Use this template](https://github.com/flaxel/thesis_templ
 At the end you must only change the variables in the [00_definitions/variables.tex](./00_definitions/variables.tex) file. In addition, there are configurations for the [actions in GitHub](https://docs.github.com/en/actions) and the [pipeline in GitLab](https://docs.gitlab.com/ee/ci/pipelines/).
 
 ## Examples 😊
+
+There are some examples to create an entry in the listings.
 
 ### Code
 
