@@ -15,3 +15,4 @@ jobs:
           patterns: '**/*.md **/*.tex'
           language: de-DE
           level: warning
+          reporter: github-pr-review
