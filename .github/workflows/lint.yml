@@ -14,5 +14,4 @@ jobs:
           github_token: ${{ secrets.github_token }}
           patterns: '**/*.md **/*.tex'
           language: de-DE
-          level: warning
           reporter: github-pr-review
