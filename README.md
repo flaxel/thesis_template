@@ -17,7 +17,7 @@ You can click on the "[Use this template](https://github.com/flaxel/thesis_templ
 * 04_finishing: summary and result of the thesis
 * 05_resources: all resources like images, ...
 
-At the end you must only change the variables in the [00_definitions/variables.tex](./00_definitions/variables.tex) file. In addition, there are configurations for the [actions in GitHub](https://docs.github.com/en/actions) and the [pipeline in GitLab](https://docs.gitlab.com/ee/ci/pipelines/).
+At the end you must only change the variables in the [00_definitions/variables.tex](./00_definitions/variables.tex) file. In addition, there are configurations for the [actions in GitHub](https://docs.github.com/en/actions) and the [pipeline in GitLab](https://docs.gitlab.com/ee/ci/pipelines/). Please feel free to delete unnecessary files.
 
 ## Examples 😊
 
