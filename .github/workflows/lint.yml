@@ -1,4 +1,4 @@
-name: reviewdog
+name: language
 
 on: [pull_request]
 
@@ -6,8 +6,13 @@ jobs:
   linting:
 
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
+      - name: Check spelling
+        uses: typoci/spellcheck-action@v1.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Check style and grammar
         uses: reviewdog/action-languagetool@v1
         with:

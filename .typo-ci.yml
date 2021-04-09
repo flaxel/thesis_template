@@ -1,0 +1,32 @@
+dictionaries:
+  - de
+
+excluded_files:
+  - "*.yml"
+  - "literature.bib"
+  - "CONTRIBUTING.md"
+  - "LICENSE"
+  - "README.md"
+
+excluded_words:
+  # latex commands
+  - acronym
+  - acronymtype
+  - chapter
+  - glossaries
+  - glsentrylong
+  - gls
+  - nopostdot
+  - nonumberlist
+  - noindent
+  - printglossary
+  - section
+  - subsection
+  - toctitle
+  - usepackage
+  # specific content
+  # abbreviations
+  - bspw
+  - etc
+
+spellcheck_filenames: false
