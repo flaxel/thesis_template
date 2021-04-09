@@ -3,10 +3,8 @@ dictionaries:
 
 excluded_files:
   - "*.yml"
+  - "*.md"
   - "literature.bib"
-  - "CONTRIBUTING.md"
-  - "LICENSE"
-  - "README.md"
 
 excluded_words:
   # latex commands
