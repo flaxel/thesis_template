@@ -10,6 +10,7 @@ excluded_words:
   # latex commands
   - acronym
   - acronymtype
+  - appendix
   - chapter
   - glossaries
   - glsentrylong
