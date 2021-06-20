@@ -31,4 +31,11 @@ jobs:
       with:
         name: thesis
         path: document.pdf
-        
+
+    # Upload logs
+    - name: Upload logs
+      if: failure() && !cancelled()
+      uses: actions/upload-artifact@v2
+      with:
+        name: logs
+        path: document.log
