@@ -8,23 +8,90 @@ excluded_files:
 
 excluded_words:
   # latex commands
+  - abovedisplayskip
+  - acrfull
+  - acrlong
   - acronym
   - acronymtype
+  - acrshort
+  - addplot
+  - addto
+  - appendix
+  - apptocmd
+  - autoref
+  - begin
+  - belowdisplayskip
+  - bfseries
+  - bibintoc
+  - caption
+  - centering
   - chapter
+  - checkmark
+  - cite
+  - emph
+  - end
+  - esvect
+  - extrasngerman
+  - fbox
+  - forest
+  - geq
   - glossaries
   - glsentrylong
+  - glsentryshort
+  - glsfirst
   - gls
-  - nopostdot
-  - nonumberlist
+  - gqq
+  - hbox
+  - hfil
+  - includegraphics
+  - itemize
+  - label
+  - listofitems
+  - mfirstuc
+  - multirow
+  - newcommand
   - noindent
+  - nonumberlist
+  - normalsize
+  - nopostdot
+  - pagebreak
+  - parbox
+  - percent
+  - printbibliography
   - printglossary
+  - raggedleft
+  - readlist
+  - ref
   - section
+  - setlength
+  - setsepchar
+  - sidewaystable
+  - SIrange
+  - smallbreak
+  - subfloat
   - subsection
+  - subsubsection
+  - tabular
+  - textbf
+  - textheight
+  - textwidth
+  - thick
+  - tikzpicture
+  - tipa
   - toctitle
   - usepackage
+  - vfil
+  - xlabel
+  - xmax
+  - xmin
+  - ylabel
+  - ymax
+  - ymin
+  - ytick
   # specific content
   # abbreviations
   - bspw
+  - bzw
   - etc
 
 spellcheck_filenames: false
