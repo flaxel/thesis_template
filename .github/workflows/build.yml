@@ -27,7 +27,7 @@ jobs:
     
     # Upload thesis
     - name: Upload PDF
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: thesis
         path: document.pdf
@@ -35,7 +35,7 @@ jobs:
     # Upload logs
     - name: Upload logs
       if: failure() && !cancelled()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: logs
         path: document.log
