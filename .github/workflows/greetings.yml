@@ -8,6 +8,6 @@ jobs:
     steps:
     - uses: actions/first-interaction@v3
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Hello @${{ github.actor }}! 😊 Thank you for submitting your first PR. 🚀'
-        pr-message: 'Hello @${{ github.actor }}! 😊 Thank you for your interest in our work. 🚀'
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        issue_message: 'Hello @${{ github.actor }}! 😊 Thank you for submitting your first PR. 🚀'
+        pr_message: 'Hello @${{ github.actor }}! 😊 Thank you for your interest in our work. 🚀'
